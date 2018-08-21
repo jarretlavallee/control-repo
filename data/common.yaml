@@ -24,7 +24,7 @@ puppet_enterprise::profile::master::java_args:
   'XX:PermSize': '=64m'
   'XX:+UseG1GC': ''
 puppet_enterprise::profile::puppetdb::java_args:
-  Xmx: '128m'
+  Xmx: '384m'
   Xms: '64m'
   'XX:MaxPermSize': '=96m'
   'XX:PermSize': '=64m'
