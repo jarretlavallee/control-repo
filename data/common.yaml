@@ -2,7 +2,7 @@
 # Hiera 5 Config
 # Control Repo Settings
 puppet_enterprise::profile::master::code_manager_auto_configure: true
-puppet_enterprise::profile::master::r10k_private_key: '/etc/puppetlabs/puppetserver/ssh/id-control_repo.rsa'
+#puppet_enterprise::profile::master::r10k_private_key: '/etc/puppetlabs/puppetserver/ssh/id-control_repo.rsa'
 puppet_enterprise::profile::master::r10k_remote: 'git@github.com:jarretlavallee/control-repo.git'
 
 # NTP Config
@@ -30,8 +30,8 @@ puppet_enterprise::profile::puppetdb::java_args:
   'XX:PermSize': '=64m'
   'XX:+UseG1GC': ''
 puppet_enterprise::profile::console::java_args:
-  Xmx: '96m'
-  Xms: '96m'
+  Xmx: '64m'
+  Xms: '64m'
   'XX:MaxPermSize': '=96m'
   'XX:PermSize': '=64m'
   'XX:+UseG1GC': ''
