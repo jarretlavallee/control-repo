@@ -5,6 +5,7 @@ forge "http://forge.puppetlabs.com"
 mod "puppetlabs/inifile"
 mod "puppetlabs/ntp"
 mod "puppetlabs/puppet_agent"
+mod 'puppetlabs-bolt_shim'
 
 # Windows Modules
 mod 'puppetlabs-powershell'
