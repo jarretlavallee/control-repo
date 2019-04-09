@@ -6,6 +6,7 @@ mod "puppetlabs/inifile"
 mod "puppetlabs/ntp"
 mod "puppetlabs/puppet_agent"
 mod 'puppetlabs-bolt_shim'
+mod 'puppetlabs-apply_helpers'
 
 # Windows Modules
 mod 'puppetlabs-powershell'
@@ -21,3 +22,7 @@ mod 'puppetlabs-stdlib', '4.25.1'
 mod 'puppetlabs-docker', '3.2.0'
 mod 'puppetlabs-apt', '6.2.1'
 mod 'puppetlabs-translate', '1.1.0'
+
+# Misc
+mod 'ca_extend',
+  :git => 'https://github.com/m0dular/ca_extend.git'
